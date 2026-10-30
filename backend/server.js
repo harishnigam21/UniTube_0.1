@@ -1,5 +1,5 @@
 import express from "express";
-import { configDotenv } from "dotenv";
+import "dotenv/config";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import corsOptions from "./config/cors.js";

@@ -1,6 +1,2 @@
 //whishlist, only this origin can have access to our backend
-export const whitelist = [
-  "http://localhost:5173",
-  "https://unitube.vercel.app",
-  'https://unitube.harishnigam.cloud'
-];
+export const whitelist = [process.env.FRONTEND_HOST];
